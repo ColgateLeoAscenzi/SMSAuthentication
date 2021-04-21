@@ -1,0 +1,16 @@
+---
+
+version: "3.7"
+
+services:
+  sms-auth-api:
+    image: sms-auth-api:latest
+    build:
+      context: sms-auth-api
+      dockerfile: Dockerfile
+    networks:
+      - backend
+    command: java -cp app:app/lib/* com.lascenzi.smsauthenticator.ApiApplication
+
+networks:
+  backend: {}

@@ -1,0 +1,10 @@
+---
+
+version: "3.7"
+
+services:
+  sms-auth-api:
+    build:
+      context: sms-auth-api
+    ports:
+      - "8080:8080"

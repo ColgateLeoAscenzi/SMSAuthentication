@@ -6,12 +6,12 @@ import org.slf4j.LoggerFactory;
 import org.slf4j.Logger;
 
 @SpringBootApplication
-public class SmsAuthenticatorApplication {
+public class ApiApplication {
 
-	static Logger logger = LoggerFactory.getLogger(SmsAuthenticatorApplication.class);
+	static Logger logger = LoggerFactory.getLogger(ApiApplication.class);
 
 	public static void main(String[] args) {
-		SpringApplication.run(SmsAuthenticatorApplication.class, args);
+		SpringApplication.run(ApiApplication.class, args);
 		logger.info("Hello Spring Boot!");
 	}
 

@@ -1,0 +1,5 @@
+#Build targets
+.smsauthenticator/target*
+#Idea
+.idea*
+.idea/vcs.xml
